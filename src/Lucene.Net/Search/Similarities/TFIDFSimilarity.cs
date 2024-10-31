@@ -81,8 +81,8 @@ namespace Lucene.Net.Search.Similarities
     ///                     <term>cosine-similarity(q,d) &#160; = &#160;</term>
     ///                     <term>
     ///                         <table>
-    ///                             <item><term><small>V(q)&#160;&#183;&#160;V(d)</small></term></item>
-    ///                             <item><term>&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;</term></item>
+    ///                             <item><term><small>V(q)&#160;&#183;&#160;V(d)</small></term></item>\
+    ///                             <item><term>&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;</term></item>\
     ///                             <item><term><small>|V(q)|&#160;|V(d)|</small></term></item>
     ///                         </table>
     ///                     </term>
