@@ -1,4 +1,4 @@
-using Lucene.Net.Support;
+﻿using Lucene.Net.Support;
 
 namespace Lucene.Net.Search.Similarities
 {
@@ -73,16 +73,20 @@ namespace Lucene.Net.Search.Similarities
     /// Cosine Similarity</a>
     /// of the weighted query vectors <i>V(q)</i> and <i>V(d)</i>:
     /// <para/>
+    ///<div style="display: flex; justify-content: center; margin: 20px;">
     /// <list type="table">
     ///     <item>
     ///         <term>
     ///             <list type="table">
     ///                 <item>
-    ///                     <term>cosine-similarity(q,d) &#160; = &#160;</term>
+    ///                     <term>
+    ///                         <item></item><br/>
+    ///                         <item>cosine-similarity(q,d) &#160; = &#160;</item>
+    ///                     </term>
     ///                     <term>
     ///                         <table>
-    ///                             <item><term><small>V(q)&#160;&#183;&#160;V(d)</small></term></item>\
-    ///                             <item><term>&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;</term></item>\
+    ///                             <item><term><small>V(q)&#160;&#183;&#160;V(d)</small></term></item><br/>
+    ///                             <item><term>&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;</term></item><br/>
     ///                             <item><term><small>|V(q)|&#160;|V(d)|</small></term></item>
     ///                         </table>
     ///                     </term>
@@ -91,9 +95,10 @@ namespace Lucene.Net.Search.Similarities
     ///         </term>
     ///     </item>
     ///     <item>
-    ///         <term>VSM Score</term>
+    ///         <term>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VSM Score</term>
     ///     </item>
     /// </list>
+    /// </div>
     /// <para/>
     ///
     ///
