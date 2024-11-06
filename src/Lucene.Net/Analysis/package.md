@@ -1,4 +1,4 @@
----
+﻿---
 uid: Lucene.Net.Analysis
 summary: *content
 ---
@@ -396,7 +396,7 @@ public override TokenStream GetTokenStream(string fieldName, Reader reader)
     <col span="1" style="width:70%">
   </colgroup>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.ICharTermAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.ICharTermAttribute.html">Lucene.Net.Analysis.TokenAttributes.ICharTermAttribute</a></td>
     <td>
       The term text of a token.  Implements J2N.Text.ICharSequence 
       (providing properties Length and this[int], and allowing e.g. for direct
@@ -405,31 +405,31 @@ public override TokenStream GetTokenStream(string fieldName, Reader reader)
     </td>
   </tr>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.IOffsetAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.IOffsetAttribute.html">Lucene.Net.Analysis.TokenAttributes.IOffsetAttribute</a></td>
     <td>The start and end offset of a token in characters.</td>
   </tr>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.IPositionIncrementAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.IPositionIncrementAttribute.html">Lucene.Net.Analysis.TokenAttributes.IPositionIncrementAttribute</a>></td>
     <td>See above for detailed information about position increment.</td>
   </tr>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.IPositionLengthAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.IPositionLengthAttribute.html">Lucene.Net.Analysis.TokenAttributes.IPositionLengthAttribute</a></td>
     <td>The number of positions occupied by a token.</td>
   </tr>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.IPayloadAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.IPayloadAttribute.html">Lucene.Net.Analysis.TokenAttributes.IPayloadAttribute</a></td>
     <td>The payload that a Token can optionally have.</td>
   </tr>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.ITypeAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.ITypeAttribute.html">Lucene.Net.Analysis.TokenAttributes.ITypeAttribute</a></td>
     <td>The type of the token. Default is 'word'.</td>
   </tr>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.IFlagsAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.IFlagsAttribute.html">Lucene.Net.Analysis.TokenAttributes.IFlagsAttribute</a></td>
     <td>Optional flags a token can have.</td>
   </tr>
   <tr>
-    <td><xref:Lucene.Net.Analysis.TokenAttributes.IKeywordAttribute></td>
+    <td><a href="./Lucene.Net.Analysis.TokenAttributes.IKeywordAttribute.html">Lucene.Net.Analysis.TokenAttributes.IKeywordAttribute</a></td>
     <td>
       Keyword-aware TokenStreams/-Filters skip modification of tokens that
       return true from this attribute's [IsKeyword](xref:Lucene.Net.Analysis.TokenAttributes.IKeywordAttribute#Lucene_Net_Analysis_TokenAttributes_IKeywordAttribute_IsKeyword) property. 
