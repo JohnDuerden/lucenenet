@@ -1,10 +1,12 @@
-{
+﻿{
   "metadata": [
     {
       "src": [
         {
           "files": [
-            "Lucene.Net.Analysis.OpenNLP/Lucene.Net.Analysis.OpenNLP.csproj"
+            "Lucene.Net.Analysis.Common/Lucene.Net.Analysis.Common.csproj",
+            "Lucene.Net.Analysis.OpenNLP/Lucene.Net.Analysis.OpenNLP.csproj",
+            "Lucene.Net/Lucene.Net.csproj"
           ],
           "exclude": [
             "**/obj/**",
@@ -13,6 +15,9 @@
           "src": "../../src"
         }
       ],
+	  "xref": [
+	    "_site/api/core/xrefmap.yml"
+	  ],
       "dest": "obj/docfx/api/analysis-opennlp",
       "properties": {
         "TargetFramework": "net8.0"
@@ -38,7 +43,14 @@
         ],
         "src": "toc"
       }
-    ],
+    ],  
+	"xref": [
+	    "obj/docfx/api/core/Lucene.Net.Analysis.TokenAttributes.IPayLoadAttribute.yml",
+		"obj/docfx/api/core/Lucene.Net.Analysis.TokenAttributes.ITypeAttribute.yml",
+		"obj/docfx/api/analysis-common/Lucene.Net.Analysis.Core.WhitespaceTokenizer.yml",
+    "obj/docfx/api/analysis-common/Lucene.Net.Analysis.Miscellaneous.TypeAsSynonymFilter.yml",
+    "obj/docfx/api/analysis-common/Lucene.Net.Analysis.Payloads.TypeAsPayloadTokenFilter.yml"
+	  ],
     "overwrite": [
       {
         "files": [
@@ -55,10 +67,6 @@
           "apiSpec/analysis-opennlp/**/*.md"
         ]
       }
-    ],
-    "xref": [
-      "_site/api/core/xrefmap.yml",
-      "_site/api/analysis-common/xrefmap.yml"
     ],
     "dest": "_site/api/analysis-opennlp",
     "globalMetadataFiles": [
